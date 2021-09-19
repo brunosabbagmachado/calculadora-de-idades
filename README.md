@@ -3,7 +3,7 @@
 
 Hora de refazer um dos meus primeiros projetos, mas dessa vez com mais conhecimento em HTML, CSS e JS.
 
-A ideia é criar uma Calculadora de Idades. 
+A ideia é criar uma Calculadora de Idades.
 
 Um projeto simples, mas meu objetivo é:
 
