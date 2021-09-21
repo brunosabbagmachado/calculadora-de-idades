@@ -1,4 +1,4 @@
-# Calculador de Idades
+# Calculadora de Idades
 ## Recriando um projeto de "Calculadora de Idades" usando HTML, CSS e JavaScript
 
 Hora de refazer um dos meus primeiros projetos, mas dessa vez com mais conhecimento em HTML, CSS e JS.
