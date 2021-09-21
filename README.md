@@ -13,3 +13,4 @@ Um projeto simples, mas meu objetivo é:
 - ganhar um pouco de independência ao tentar escrever o código sem assistir as aulas da Alura;
 - ganhar a prática de pesquisar e entender soluções para meus códigos;
 
+Visualizar projeto: https://brunosabbagmachado.github.io/calculadora-de-idades/
