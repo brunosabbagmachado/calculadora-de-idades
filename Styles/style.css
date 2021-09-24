@@ -32,40 +32,45 @@ header p {
 /*Main ........................................................................*/
 
 .conteudo{
-    width: auto;
-    margin: 0 25%;
-    padding:40px 25px;
-    display: flex;
-    align-items: center;
+    width: 0 auto;
+    margin: auto;
+    padding:20px 15%;
+
 }
 
-.perguntaNome, .perguntaAno{
+.perguntas, .respostas {
     background: #81b6b8;
-    display: block;
-    margin: 1.2%;
+    margin: 15px 370px;
     padding: 10px 10px;
-    box-sizing: border-box;
-    border: 2px solid #1c3738;
-    border-radius: 10px;
-    background: #81b6b8;
-}
-
-.listaResultados {
-    background: #81b6b8;
-    width: 30%;
-    margin: 20px 20%;
-    padding: 25px 10px;
-    display: flex;
     text-align: center;
     vertical-align: top;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #1c3738;
     border-radius: 10px;
+   
 }
 
+.perguntaNome, .perguntaAno {
+    margin: 5px;
+}
+
+.perguntaNome p, .perguntaAno p{
+    margin: auto;
+    padding: 10px 0 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#nomeUsuario, #anoQueNasceu {
+    padding: 5px 30px;
+    text-align: center;
+    color: #2d5a5c;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 .form-button {
-    width: 70%;
+    width: 30%;
     padding: 10px 0;
     background: #2d5a5c;
     color: white;
@@ -79,8 +84,18 @@ header p {
 }
 
 .form-button:hover {
-    background: #52e8f0;
-    color: black;
-    transform: scale(1.2)
+    background: #28bec9;
+    transform: scale(1.1)
 }
 
+.respostas p {
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.respostas li {
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+}
