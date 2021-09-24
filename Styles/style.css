@@ -29,31 +29,58 @@ header p {
     color: white;
 }
 
-
 /*Main ........................................................................*/
-form {
-    margin: 10px;
-    padding: 10px;
-    text-align:  center;
-    display: block;
+
+.conteudo{
+    width: auto;
+    margin: 0 25%;
+    padding:40px 25px;
+    display: flex;
+    align-items: center;
 }
 
-form legend, form label {
-    padding: 25px 0 10px;
+.perguntaNome, .perguntaAno{
+    background: #81b6b8;
     display: block;
-}
-
-.perguntas-principais {
-    width: 50%;
-    margin: auto;
-    display: block;
-    padding: 20px;
-    text-align: center;
+    margin: 1.2%;
+    padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid #336699;
-    border-radius: 15px;
+    border: 2px solid #1c3738;
+    border-radius: 10px;
+    background: #81b6b8;
 }
-.input-padrao {
-    padding: 5px;
+
+.listaResultados {
+    background: #81b6b8;
+    width: 30%;
+    margin: 20px 20%;
+    padding: 25px 10px;
+    display: flex;
     text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
+
+
+.form-button {
+    width: 70%;
+    padding: 10px 0;
+    background: #2d5a5c;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    transition: 1s all;
+    cursor: pointer
+}
+
+.form-button:hover {
+    background: #52e8f0;
+    color: black;
+    transform: scale(1.2)
+}
+
