@@ -11,7 +11,7 @@ header {
 
 .caixa-header {
     position: relative;
-    width: 940px;
+    width: auto;
     margin: 10px auto;
 }
 
@@ -40,7 +40,7 @@ header p {
 
 .perguntas, .respostas {
     background: #81b6b8;
-    margin: 15px 370px;
+    margin: 15px auto;
     padding: 10px 10px;
     text-align: center;
     vertical-align: top;
@@ -115,8 +115,7 @@ header p {
 
     .conteudo {
         margin: auto;
-        padding: 2%;
-        
+        padding: 2%; 
     }
 
     .perguntas, .respostas {
