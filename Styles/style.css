@@ -99,3 +99,45 @@ header p {
     color: white;
     font-size: 16px;
 }
+
+
+/*Design responsivo........................................................*/
+
+@media screen and (max-width: 480px) {
+    .caixa-header {
+        width: auto;
+    }
+
+    header p {
+        padding: 4%;
+        font-size: 16px;
+    }
+
+    .conteudo {
+        margin: auto;
+        padding: 2%;
+        
+    }
+
+    .perguntas, .respostas {
+        margin: 5% 2%;
+        padding: 4%;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    #nomeUsuario, #anoQueNasceu {
+        padding: 2% 0px;
+    }
+
+    .form-button {
+        width: 60%;
+        padding: 5% 10%;
+    }
+
+    .respostas p {
+        margin: 3%;
+        padding: 2% 1%;
+        font-size: 14px;
+    }
+}
