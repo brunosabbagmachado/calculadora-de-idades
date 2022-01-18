@@ -1,0 +1,47 @@
+<meta charset = "UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function mostraResultados(quantidadeResultados){
+
+        var anoAtual = parseInt(prompt("Em que ano estamos?"));
+
+        for(var i = 0; i < quantidadeResultados; i++){
+
+            var pessoa = i + 1;
+
+            nomes.push(prompt("Qual o nome da " + pessoa + "ª pessoa que você deseja calcular a idade?"));
+
+            idades.push(prompt("Qual o ano em que " + nomes[i] +  " nasceu?"));
+
+            var mostraIdades = anoAtual - idades[i];
+
+            mostra((nomes[i] + ", você nasceu no ano " + idades[i]) + ". Isso significa que em "+ anoAtual + " você tem " + mostraIdades + ".");
+           
+        }
+    }
+
+    var nomes = [];
+
+    var idades = [];
+   
+    var quantasVezes = parseInt(prompt("Bem vindo a Calculadora de Idades. Primeiro, digite a quantidade de idades que deseja calcular: "));
+
+    document.write("<h3>Calculadora de Idades</h3>");
+
+    mostra("Os resultados do seus calculos são: ")
+
+    mostraResultados(quantasVezes);  
+
+    mostra("Clique <a href = projeto_final.html    >aqui</a> para recomeçar");
+
+</script>
