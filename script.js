@@ -1,6 +1,6 @@
-const criarTarefa = (evento) => {
+const criarTarefa = evento => {
   evento.preventDefault();
-  
+
   const nome = document.querySelector("#nomeUsuario");
 
   const ano = document.querySelector("#anoQueNasceu");
@@ -8,14 +8,16 @@ const criarTarefa = (evento) => {
   const nomeString = nome.value;
   const anoInt = ano.value;
 
-  const anoAtual = 2021;
+  const anoAtual = new Date().getFullYear();
+
+  console.log(anoAtual);
 
   const calculo = anoAtual - anoInt;
 
   const lista = document.querySelector("[data-list]");
   const tarefa = document.createElement('li');
   tarefa.classList.add('task');
-  const conteudo = `<p class="content">${nomeString + ", em 2021 você tem " + calculo + " anos de idade."}</p>`;
+  const conteudo = `<p class="content">${nomeString}, em ${anoAtual} você tem ${calculo} anos de idade.</p>`;
   tarefa.innerHTML = conteudo;
 
   nome.value = " ";

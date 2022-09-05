@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Calculadora de Idades</title>
-    <link rel="stylesheet" href="Styles/reset.css" />
-    <link rel="stylesheet" href="Styles/style.css" />
-    <link
-      ref="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header>
-      <div class="caixa-header">
-        <h1>Calculadora de Idades</h1>
-        <p>Bem vindo a "Calculadora de Idades".</p>
-        <p>Digite nome e o ano em que nasceu, para saber sua idade.</p>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Calculadora de Idades</title>
+  <link rel="stylesheet" href="Styles/reset.css" />
+  <link rel="stylesheet" href="Styles/style.css" />
+  <link ref="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+</head>
 
-    <main class="conteudo">
-
-      <div class="perguntas">
-        <div class="perguntaNome">
-          <p>Qual seu nome?</p>
-          <input id="nomeUsuario" /><br /><br /><br />
-        </div>
-
-        <div class="perguntaAno">
-          <p>Em que ano você nasceu?</p>
-          <input id="anoQueNasceu" /><br /><br /><br />
-        </div>
-
-        <button class="form-button" data-form-button>Calcular</button>
-      </div>
-     
-      <div class="respostas">
-        <p>Aqui você verá o resultado do seu cálculo</p>
-        <ul class="listaResultados" data-list></ul>
-        </ul>
+<body>
+  <header>
+    <div class="caixa-header">
+      <h1>Calculadora de Idades</h1>
+      <p>Bem vindo a "Calculadora de Idades".</p>
+      <p>Digite nome e o ano em que nasceu, para saber sua idade.</p>
     </div>
-    </main>
+  </header>
 
-    <script type="module" src="script.js"></script>
-  </body>
+  <main class="conteudo">
+
+    <div class="perguntas">
+      <div class="perguntaNome">
+        <p>Qual seu nome?</p>
+        <input id="nomeUsuario" /><br /><br /><br />
+      </div>
+
+      <div class="perguntaAno">
+        <p>Em que ano você nasceu?</p>
+        <input id="anoQueNasceu" /><br /><br /><br />
+      </div>
+
+      <button class="form-button" data-form-button>Calcular</button>
+    </div>
+
+    <div class="respostas">
+      <p>Aqui você verá o resultado do seu cálculo</p>
+      <ul class="listaResultados" data-list></ul>
+      </ul>
+    </div>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+
 </html>
